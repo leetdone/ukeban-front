@@ -1,0 +1,47 @@
+ul{
+  list-style: none;
+  display: flex;
+  /* position: absolute; */
+  /* left: 300px;
+  top: 10px; */
+  font-size: 16px;
+  
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-img{
+  display: inline-block;
+  line-height: 1;
+  float: left;
+  /* text-align:center */
+  line-height: 71.5px;
+}
+.nav-box{
+  display: inline-block;
+  display: flex;
+  float: right;
+}
+
+.heads{
+  font-size: 12px;
+}
+.heads-box{
+  justify-content: space-between;
+  color: #333;
+  align-items: center;
+  display: flex;
+}
+
+.active{
+  color: red;
+}
+
+ul li{
+  /* display: inline-block; */
+  margin: 10px;
+
+}

@@ -1,13 +1,28 @@
 import React, { Component } from 'react'
-
+import './viewCSS/Home.css'
+import Carousel from '../components/Carousel'
+import MCard from '../components/MCard'
 export default class Home extends Component {
   render() {
     return (
       <div>
-        Home
-        <h1>less</h1>
-        <h1>mafanl</h1>
+        <div className='banner'>
+          <div className='banner-image'>
+          <img className='tiger'src='https://web.ukeban.com/static/banner1_v2.6442b09a.png' alt></img>
+            <div className='banner-text'>
+              <div className='banner-fixation'>
+                <p>单位发福利，人人都满意</p>
+                <p>越来越多的企业选择可伴为职工发福利，听听他们怎么说</p>
+              </div>
+              <br/>
+
+              <Carousel className='banner-box'></Carousel>
+
+            </div>
+          </div>
         </div>
+        <MCard></MCard>
+      </div>
     )
   }
 }

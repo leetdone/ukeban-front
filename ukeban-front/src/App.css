@@ -1,47 +1,77 @@
-ul{
-  list-style: none;
-  display: flex;
-  /* position: absolute; */
-  /* left: 300px;
-  top: 10px; */
-  font-size: 16px;
-  
-}
-
-.nav{
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav-img{
-  display: inline-block;
-  line-height: 1;
-  float: left;
-  /* text-align:center */
-  line-height: 71.5px;
-}
-.nav-box{
-  display: inline-block;
-  display: flex;
-  float: right;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 .heads{
-  font-size: 12px;
+  background-color: #e1e1e1;;
+  /* width: 1200px; */
+  margin: 0 auto; 
 }
+
 .heads-box{
+  width: 1200px;
+  margin: 0 auto; 
   justify-content: space-between;
   color: #333;
   align-items: center;
-  display: flex;
+  height: 30px;
+}
+.welcome{
+  display: inline-block;
+  line-height: 30px;
+}
+.heads-applet{
+  display: inline-block;
+  line-height: 30px;
+  margin: 0;
+  float: right;
+  /* background-color: green; */
 }
 
-.active{
-  color: red;
+.nav{
+  /* display: flex; */
+  justify-content: space-between;
+  /* background-color: blue; */
+  width: 1200px;
+  height: 45px;
+  margin: 0 auto;
 }
+
+.kebanPic{
+  height: 42px;
+  display: inline-block;
+  float:left;
+}
+.nav-box{
+  /* background-color: green; */
+  display: inline-block;
+  line-height: 30px;
+  height: 40px;
+  float: right;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  font-size: 16px;
+}
+
+.comp{
+  break-before: always;
+  display: block;
+}
+/* .nav-img{
+  display: inline-block;
+  line-height: 1;
+  float: left;
+  line-height: 71.5px;
+} */
+
+
+
 
 ul li{
   /* display: inline-block; */
   margin: 10px;
-
 }

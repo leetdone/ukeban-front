@@ -3,6 +3,11 @@
   padding: 0px;
 }
 
+.float-left{
+  float: left;
+}
+
+
 .heads{
   background-color: #e1e1e1;;
   /* width: 1200px; */
@@ -61,14 +66,28 @@ ul{
   break-before: always;
   display: block;
 }
-/* .nav-img{
+
+
+.footer-main{
+  height: 366px;
+  background-color: #f1f1f1;
+}
+
+.footer-t{
+  /* width: 1414px; */
+  height: 366px;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+  position: relative;
+  left: -46px;
+}
+.nav-img{
   display: inline-block;
   line-height: 1;
   float: left;
   line-height: 71.5px;
-} */
-
-
+}
 
 
 ul li{

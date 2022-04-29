@@ -1,0 +1,20 @@
+
+.footer-img{
+    width: 400px;
+    height: 299px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    /* width: 30%; */
+  }
+  
+  .footer-qr-box{
+    margin-top: 60px;
+  }
+  
+  .footer-qr-box .qr-content{
+    font-size: 14px;
+    font-weight: 500;
+    color: #575757;
+    line-height: 20px;
+  }

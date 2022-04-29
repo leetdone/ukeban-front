@@ -6,6 +6,7 @@ import Menu from './components/Menu.js'
 import { GlobalStyled } from './reset-css'
 import {Button} from 'antd'
 import AntdesignRouter from './AntdesignRouter';
+import Footer from './views/Footer';
 class App extends React.Component{
   render(){
     return(
@@ -28,6 +29,8 @@ class App extends React.Component{
             </div>
           </div>
         <AntdesignRouter/>
+
+      <Footer></Footer>
       </div>
         
     )

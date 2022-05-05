@@ -6,7 +6,7 @@ export const GlobalStyled = createGlobalStyle`
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
+    font: PingFangSC-Medium,PingFang SC;
     vertical-align: baseline;
   }
   article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {

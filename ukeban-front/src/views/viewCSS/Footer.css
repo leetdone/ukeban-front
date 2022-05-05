@@ -1,10 +1,17 @@
 
+.footer-t{
+  display: flex;
+  /* margin-left: 992px; */
+  margin: 0 auto;
+  width: 1200px;
+}
+
 .footer-img{
     width: 400px;
     height: 299px;
-    background-color: grey;
-    display: flex;
+    display: flex ;
     justify-content: space-between;
+    margin-right: 0;
     /* width: 30%; */
   }
   
@@ -15,6 +22,10 @@
   .footer-qr-box .qr-content{
     font-size: 14px;
     font-weight: 500;
-    color: #575757;
+
     line-height: 20px;
+  }
+
+  .footer-box{
+    position: relative;
   }

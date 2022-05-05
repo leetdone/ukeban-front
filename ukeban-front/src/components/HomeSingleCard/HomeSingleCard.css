@@ -1,20 +1,24 @@
-
+/* 
 .firstRow {
     background: #ececec;
     width: 1200px;
-    height: 733px;
     margin: 20px auto 20px;
     
-    /* margin:'10px 20px' */
   }
 .secondRow{
 
     background: #ececec;
     width: 1200px;
-    height: 733px;
-    margin: 20px auto 20px;
+    margin: 0 auto;
+} */
+.col1{
+    /* display: inline-block; */
+    border-style:solid;
+    background-color: green;
+    width: 386px;
+    /* padding: 0; */
+    /* padding-right: 0; */
 }
-
 .cards{
     border: 1px;
     border-style:'solid';
@@ -41,28 +45,36 @@
 
 .more{
     height: 80px;
-    width: 331px;
+    width: 340px;
     margin: 21px 26px;
     position: relative;
 }
+.more:hover{
+    cursor: pointer;
+}
 
-.more .title{
+.more .homeSingleCardTitle{
     font-size: 17px;
     font-weight: 400;
-    color: red;
+    width: 260px;
+    height: 48px;
+    color: black;
     line-height: 24px;
     overflow: hidden;
     text-overflow: ellipsis;
     
 }
 
-.more .content{
+.more .homeSingleCardcontent{
     font-size: 15px;
     font-weight: 400;
-    color: #b5b5b5;
+    width: 260px;
+    color: grey;
     line-height: 21px;
     margin-top: 13px;
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -72,7 +84,10 @@
     position: absolute;
     right: 0;
     top: 0;
+    width: 80px;
+    height: 80px;
 }
+
 .seemore{
     font-size: 20px;
     font-weight: 400;

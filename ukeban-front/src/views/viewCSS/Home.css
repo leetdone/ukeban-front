@@ -7,7 +7,6 @@
     width: 1200px;
     height: 900px;
     margin: 0 auto;
-    
 }
 .banner-text{
     height: 550px;
@@ -43,4 +42,7 @@
 .banner-box{
     height: 4751px;
     width: 353px;
+}
+.tiger{
+     margin: 0 auto;
 }

@@ -1,20 +1,23 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
-export default class Menu extends Component {
+import { HashRouter } from 'react-router-dom/cjs/react-router-dom.min'
+import './FooterMenu.css'
+export default class FooterMenu extends Component {
 
-  activeStyle = isActive => ({
-    color: isActive ? "red" : "black"
-    })
+  activeStyle = {
+    color: "black",
+    }
 
   render() {
     return (
-    <div>
-    <ul className='menuList'>
+    <div className='footerMenu menuLocation1'>
+      <p className='menuTitle'>可伴</p>
+      <HashRouter>
+      <ul className='menuContent'>
         <li>
-          <NavLink style={this.activeStyle} to='/Home'>首页</NavLink>
-        </li>
-        <li>
-          <NavLink style={this.activeStyle} to='/Product'>产品介绍</NavLink>
+          <NavLink     
+          style={this.activeStyle}
+          to='/Product'>产品介绍</NavLink>
         </li>
         <li>
           <NavLink style={this.activeStyle} to='/About'>关于我们</NavLink>
@@ -25,10 +28,8 @@ export default class Menu extends Component {
         <li>
           <NavLink style={this.activeStyle} to='/Merchant'>商户总览</NavLink>
         </li>
-        <li>
-          <NavLink style={this.activeStyle} to='/Help'>帮助中心</NavLink>
-        </li>
-    </ul>
+      </ul>
+      </HashRouter>
     </div>
     )
   }

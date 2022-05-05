@@ -1,0 +1,49 @@
+
+
+.footerMenu{
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+}
+.menuLocation1{
+    top: 60px;
+    left: 80px;
+}
+.menuLocation2{
+    top: 60px;
+    left: 200px;
+}
+
+.menuTitle{
+    font-size: 18px;
+    margin: 10px;
+}
+
+.menuContent{
+    color: black;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.buttonContent{
+    padding: 0px;
+    background-color: red;
+    border: 0px;
+    
+}
+
+.menuContent:hover{
+    color:black;
+}
+
+.hotLine{
+    position: absolute;
+    margin-top: 60px;
+    right: 0px;
+    text-align: right;
+}
+
+.hotLineNum{
+    font-size: 32px;
+    margin-right: 10px;
+}

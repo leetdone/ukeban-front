@@ -2,18 +2,34 @@
 
 ## src 中的源代码
 ### App.js
-渲染首页， 包括标签栏。标签栏用两种方式实现，一种是声明式导航（用了state来确定点击的标签，并转到相对应的路由），一种是编程式导航（用了NavLink）
-### App.css
-排版首页，但css我不怎么会写，可能逻辑很乱lol
+渲染首页， 包括标签栏。标签栏用编程式导航实现。（用了NavLink）
 ### RouterIndex.js
 路由模块，存储路由
-### views
-包含标签栏导航到的各个页面
 
-## 遇到的问题
-1. 写了两种标签栏实现方式，不知道哪种比较好。标签栏中字体的样式个原网站不一样。  
-2. css不怎么会，基本上是用什么查什么，排版跟原网站差距较大
-3. 代码基于react脚手架，不会用嵩哥给的脚手架
+### reset-css
+将所有格式变成默认格式
+
+## views文件夹
+包含标签栏导航到的各个页面，对应关系为Home.js(首页), Product.js(产品介绍)， About.js(关于我们)， News.js(新闻中心)， Merchant.js(商户总览)， Help.js（帮助中心）， Footer.js(页脚）  
+
+viewCSS包含js文件对应的css文件
+
+## components
+抽象出的react组件  
+### 首页
+Menu.js 菜单栏组件  
+Carousel.js 轮播组件  
+MCard.js 包含首页中所有卡片  
+HomeSingleCard.js 首页中单个卡片  
+
+### 新闻中心
+NewsCard展示每个新闻的组件  
+### 页脚
+qr-code 页脚的QR二维码组件  
+Hotline 页脚最右侧的客服热线  
+ContactMenu.js 页脚中间的联系我们，和可伴  
+
+
 
 ## 启动程序
 项目基于react的脚手架  

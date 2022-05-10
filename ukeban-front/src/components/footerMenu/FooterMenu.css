@@ -1,0 +1,40 @@
+.footer-menu {
+  position: absolute;
+  display: inline-block;
+  width: 100px;
+}
+.menu-location1 {
+  top: 60px;
+  left: 80px;
+}
+.menu-location2 {
+  top: 60px;
+  left: 200px;
+}
+
+.menu-title {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.menu-content {
+  color: black;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.button-content {
+  padding: 0px;
+  background-color: red;
+  border: 0px;
+}
+
+.menu-content:hover {
+  color: black;
+}
+
+
+.phone-number {
+  font-size: 32px;
+  margin-right: 10px;
+}

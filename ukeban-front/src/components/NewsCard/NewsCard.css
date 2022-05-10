@@ -1,44 +1,44 @@
-.NewsCard{
-    width: 1100px;
-    height: 160px;
-    margin: 0 auto;
-    position: relative;
-    /* text-align: center; */
+.NewsCard {
+  width: 1100px;
+  height: 160px;
+  margin: 0 auto;
+  position: relative;
+  /* text-align: center; */
 }
 
-.NewsImage{
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    top: 30px;
+.NewsImage {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 30px;
 }
 
-.NewsTitle{
-    display: inline-block;
-    position: absolute;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 39px;
-    left: 150px;
-    top: 40px;
+.NewsTitle {
+  display: inline-block;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 39px;
+  left: 150px;
+  top: 40px;
 }
 
-.NewsContent{
-    display: inline-block;
-    position: absolute;
-    font-size: 18px;
-    line-height: 50px;
-    font-weight: 500;
-    left: 146px;
-    top: 72px;
+.NewsContent {
+  display: inline-block;
+  position: absolute;
+  font-size: 18px;
+  line-height: 50px;
+  font-weight: 500;
+  left: 146px;
+  top: 72px;
 }
 
-.NewsTime{
-    display: inline-block;
-    position: absolute;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 105px;
-    top: 50px;
-    right: 0px;
+.NewsTime {
+  display: inline-block;
+  position: absolute;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 105px;
+  top: 50px;
+  right: 0px;
 }

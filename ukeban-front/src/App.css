@@ -3,30 +3,29 @@
   padding: 0px;
 }
 
-.float-left{
+.float-left {
   float: left;
 }
 
-
-.heads{
-  background-color: #e1e1e1;;
+.heads {
+  background-color: #e1e1e1;
   /* width: 1200px; */
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
-.heads-box{
+.heads-box {
   width: 1200px;
-  margin: 0 auto; 
+  margin: 0 auto;
   justify-content: space-between;
   color: #333;
   align-items: center;
   height: 30px;
 }
-.welcome{
+.welcome {
   display: inline-block;
   line-height: 30px;
 }
-.heads-applet{
+.heads-applet {
   display: inline-block;
   line-height: 30px;
   margin: 0;
@@ -34,7 +33,7 @@
   /* background-color: green; */
 }
 
-.nav{
+.nav {
   /* display: flex; */
   justify-content: space-between;
   /* background-color: blue; */
@@ -43,12 +42,12 @@
   margin: 0 auto;
 }
 
-.kebanPic{
+.kebanPic {
   height: 42px;
   display: inline-block;
-  float:left;
+  float: left;
 }
-.nav-box{
+.nav-box {
   /* background-color: green; */
   display: inline-block;
   line-height: 30px;
@@ -56,41 +55,38 @@
   float: right;
 }
 
-.menuList{
+.menuList {
   list-style: none;
   display: flex;
   font-size: 16px;
 }
 
-.comp{
+.comp {
   break-before: always;
   display: block;
 }
 
-
-.footer-main{
+.footer-main {
   height: 366px;
   background-color: #f1f1f1;
 }
 
-.footer-t{
+.footer-t {
   /* width: 1414px; */
   height: 366px;
   width: 1200px;
   margin: 0 auto;
   background-color: #f1f1f1;
   position: relative;
-
 }
-.nav-img{
+.nav-img {
   display: inline-block;
   line-height: 1;
   float: left;
   line-height: 71.5px;
 }
 
-
-ul li{
+ul li {
   /* display: inline-block; */
   margin: 10px;
 }

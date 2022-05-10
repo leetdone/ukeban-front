@@ -1,0 +1,39 @@
+.footer{
+  background-color: #f4f4f4;
+}
+
+.footer-main {
+  display: flex;
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+}
+
+.footer-img {
+  width: 400px;
+  height: 299px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0;
+}
+
+.footer-qr-box {
+  margin-top: 60px;
+}
+
+.footer-qr-box .qr-content {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.footer-box {
+  position: relative;
+}
+
+.hot-line {
+  position: absolute;
+  margin-top: 60px;
+  right: 0px;
+  text-align: right;
+}

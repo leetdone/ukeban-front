@@ -1,23 +1,21 @@
-.contentBlock{
-    /* height: 400px; */
+
+.about-title {
+  background-image: url("../../assets/images/pic_title.png");
+  background-size: cover;
+  height: 80px;
+  width: 500px;
+  line-height: 80px;
+  display: inline-block;
+  margin-top: 50px;
+  font-size: 47px;
+  color: rgb(255, 201, 77);
 }
 
-.aboutTitle{
-    background-image: url('../../assets/images/pic_title.png');
-    background-size: cover;
-    height: 80px;
-    width: 500px;
-    line-height: 80px;
-    display: inline-block;
-    margin-top: 50px;
-    font-size: 47px;
-    color: rgb(255, 201, 77)
-}
-.contentBlock{
-    margin-top: 17px;
-    color: rgb(237, 235, 231);
-    line-height: 62px;
-    letter-spacing: 5px;
-    font-size: 34px;
-    white-space: pre-line;
+.about-main {
+  margin-top: 17px;
+  color: rgb(237, 235, 231);
+  line-height: 62px;
+  letter-spacing: 5px;
+  font-size: 34px;
+  white-space: pre-line;
 }

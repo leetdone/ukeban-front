@@ -1,118 +1,117 @@
+import React from "react";
+import "./App.css";
+import RouterIndex from "./routers/menuRouter";
+import Menu from "./components/menu/Menu.js";
+import { GlobalStyled } from "./resetCss";
+import AntdesignRouter from "./routers/PagesRouter";
+import Footer from "./pages/footer/Footer";
 
-import React from 'react';
-import './App.css';
-import RouterIndex from './RouterIndex';
-import Menu from './components/Menu.js'
-import { GlobalStyled } from './reset-css'
-import {Button} from 'antd'
-import AntdesignRouter from './AntdesignRouter';
-import Footer from './views/Footer';
-
-class App extends React.Component{
-  render(){
-    return(
+class App extends React.Component {
+  render() {
+    return (
       <div>
-        <GlobalStyled/>
+        <GlobalStyled />
         {/* <Button>hi</Button> */}
-        <div className='heads'>
-          <div className='heads-box'>
-            <p className='welcome'>欢迎来到可伴员工之家</p>
-            <p className='heads-applet'>可伴云服务小程序</p>
+        <div className="heads">
+          <div className="heads-box">
+            <p className="welcome">欢迎来到可伴员工之家</p>
+            <p className="heads-applet">可伴云服务小程序</p>
           </div>
         </div>
-
-          <div className='nav'>
-            <img alt="" className ="kebanPic" src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAArCAMAAAAe72skAAABFFBMVEUAAAAAAADHAAnHAAnFDwDHAAkAAADEAADGAAXHAAnHAAnHAAbEAAUAAADHAAnHAAkAAADHAAjHAAjHAAgAAADDAAAAAAAAAADHAAkAAAAAAADHAAfHAAgAAADHAAnHAAnIAAnHAAnGAAnHAAjGAAcAAADHAAkAAADIAAjJAAjHAAnIAAkAAAAAAAAAAAAAAAAGAADGAAcAAADBAAYBAADHAAkAAADHAAjHAAgAAADGAAjGAAbHAAkAAAAAAADHAAjHAAkAAADFAAnHAAkAAADGAAYAAAAAAAAAAADwggAAAAAAAADGAAfvgQDugADwggDxggDxgQAAAADwgQAAAADwggDufwDvgQDxgwDuggDHAAoAAACkrPkQAAAAWnRSTlMA9/zsCfYJDR/O8jAZEZjcx7qKby4T17qfi09DOebgx8CxpXs28NepWT3n07Oil2pdSCYl3YSBdmBWUSnjnXplVDeqkkAsHOvNmJJjTDUU98eQc1BJsx3df2jdnvTXAAAEGklEQVRIx51T53raQBA8nXSqiN47phsDxoAhYFNc4xrbcZr0/u+RvaIgxUm+JPNHp52d23roLzGeb1IIhcIEZ+H7LwhVMKmllDh2HFz/N2mBaqYhwwFUAnfer2fxsMD5bL1paD52NOugEQZNuVulUkPxGKW7VzaB2QETuTqmlGYVlmgjOyTOpDhep8HPkYe67LwFKQCjn8m4vM7Cr9lhTvuL80g5HvKUC6EMIgYZp2I0VI9KnZnBzD1L7xa6XjXxXylxB5gEZpESBP4TVZGNTAhpFbl0+ivpvg49iLGjXMgSp9Ko+Ok93qhiBL+VVmDs4wiXdlOJ6eVloKya6LE+O6sYvZMAdwZcQxZS6hPzsycF5EEJhfTlZXF+bhDvWm0nBT+thn3CbNG3Ed1Ovb6+15XUvLVLWEgJdGzuUxpFLWTpYrHD+5jBjDXQpShwiZC1z5tdD7aynDUINlmj9ApmzrXzKolYaIaZfwLGaoh2QivLDpaDCzeic2Wm1khBqTjOokseqxISDITRIIPNqNAKSBMgZRY8R+h1cBjp6QrPmCwgH4N73bNWJky/1KStwuy0RGrUnZzBJCJiE4FanpneUlpVEhhPAgF4EEj9eDLYkwue1LRoqDqmx3u0NALZ1hqIgo8gCzfb4xO5oJV9xaBQhIVVEo4fppiNKCjc0DcVp6V3ZcGHWYVh5rpYB9rbE08nK6LsR0w6CJaiqBAwJ2y5xlUwE4+qihXuEP8D1wzH45nUkpndCnXW88VUFlGFVKv5HpM2w0Gp0uOtCIRpUerxEUYQE+7YGC/kn99kmMfhjVGy3pt7/HxzA4ZUwjAJMctTXdnNANdFIL7TdAO8/Ak0//n56wfxdqwGvVc/2Q3A4ox4BCPEsTFwpK6hh6ebj0IqsGsSiQuTUhN7J5DSYbs/f/r0cPOEAliIhZCnmmcqRmjPQkG/h4fnLx9REFY81mrF4kWfqbFn7I1REN8+PDFlEIqmKT+b3jo9Cpttq+g3sK9s9Hsc5TKZ0yOE1MPB6XGSfl9VtB3CCW370feZFxts7zh3leuv7GT+iCuTacl13VLSzsBXus6rfUl62Zak6y26a7oA6cC2DyhXyqtt+pGk5opJBxLjL4bwBUS3adfNHEquNLyagJ1q8oLLbK9djgmL+57a2i92H2SrJviVgMmB9Jjq+0OIfEy542u3lHddcds7Kk3Dod0eJA9ct31R4lKXsnenNNkcHFfA9V8nIKX2HA12R6VgpljRQE3JjSaj3CAlM16Iix8cjbPqe1EvJswxf8Ta1bxDvDBpoDIpOwnuUL2VwBMKSfMeX7TT6cw7FSVz79MH9LZhtCmVbq8QlUZzt0ABF2Xc1Wl7iOxcO48EVFUNfvmOtEF6qvp8/h6HtM3ov2DfStGjP/DfAZItc3c4PvNOAAAAAElFTkSuQmCC' />            
-            <div className='nav-box'>
-            <RouterIndex className='comp'>
+        <div className="nav">
+          <img
+            alt=""
+            className="kebanPic"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAArCAMAAAAe72skAAABFFBMVEUAAAAAAADHAAnHAAnFDwDHAAkAAADEAADGAAXHAAnHAAnHAAbEAAUAAADHAAnHAAkAAADHAAjHAAjHAAgAAADDAAAAAAAAAADHAAkAAAAAAADHAAfHAAgAAADHAAnHAAnIAAnHAAnGAAnHAAjGAAcAAADHAAkAAADIAAjJAAjHAAnIAAkAAAAAAAAAAAAAAAAGAADGAAcAAADBAAYBAADHAAkAAADHAAjHAAgAAADGAAjGAAbHAAkAAAAAAADHAAjHAAkAAADFAAnHAAkAAADGAAYAAAAAAAAAAADwggAAAAAAAADGAAfvgQDugADwggDxggDxgQAAAADwgQAAAADwggDufwDvgQDxgwDuggDHAAoAAACkrPkQAAAAWnRSTlMA9/zsCfYJDR/O8jAZEZjcx7qKby4T17qfi09DOebgx8CxpXs28NepWT3n07Oil2pdSCYl3YSBdmBWUSnjnXplVDeqkkAsHOvNmJJjTDUU98eQc1BJsx3df2jdnvTXAAAEGklEQVRIx51T53raQBA8nXSqiN47phsDxoAhYFNc4xrbcZr0/u+RvaIgxUm+JPNHp52d23roLzGeb1IIhcIEZ+H7LwhVMKmllDh2HFz/N2mBaqYhwwFUAnfer2fxsMD5bL1paD52NOugEQZNuVulUkPxGKW7VzaB2QETuTqmlGYVlmgjOyTOpDhep8HPkYe67LwFKQCjn8m4vM7Cr9lhTvuL80g5HvKUC6EMIgYZp2I0VI9KnZnBzD1L7xa6XjXxXylxB5gEZpESBP4TVZGNTAhpFbl0+ivpvg49iLGjXMgSp9Ko+Ok93qhiBL+VVmDs4wiXdlOJ6eVloKya6LE+O6sYvZMAdwZcQxZS6hPzsycF5EEJhfTlZXF+bhDvWm0nBT+thn3CbNG3Ed1Ovb6+15XUvLVLWEgJdGzuUxpFLWTpYrHD+5jBjDXQpShwiZC1z5tdD7aynDUINlmj9ApmzrXzKolYaIaZfwLGaoh2QivLDpaDCzeic2Wm1khBqTjOokseqxISDITRIIPNqNAKSBMgZRY8R+h1cBjp6QrPmCwgH4N73bNWJky/1KStwuy0RGrUnZzBJCJiE4FanpneUlpVEhhPAgF4EEj9eDLYkwue1LRoqDqmx3u0NALZ1hqIgo8gCzfb4xO5oJV9xaBQhIVVEo4fppiNKCjc0DcVp6V3ZcGHWYVh5rpYB9rbE08nK6LsR0w6CJaiqBAwJ2y5xlUwE4+qihXuEP8D1wzH45nUkpndCnXW88VUFlGFVKv5HpM2w0Gp0uOtCIRpUerxEUYQE+7YGC/kn99kmMfhjVGy3pt7/HxzA4ZUwjAJMctTXdnNANdFIL7TdAO8/Ak0//n56wfxdqwGvVc/2Q3A4ox4BCPEsTFwpK6hh6ebj0IqsGsSiQuTUhN7J5DSYbs/f/r0cPOEAliIhZCnmmcqRmjPQkG/h4fnLx9REFY81mrF4kWfqbFn7I1REN8+PDFlEIqmKT+b3jo9Cpttq+g3sK9s9Hsc5TKZ0yOE1MPB6XGSfl9VtB3CCW370feZFxts7zh3leuv7GT+iCuTacl13VLSzsBXus6rfUl62Zak6y26a7oA6cC2DyhXyqtt+pGk5opJBxLjL4bwBUS3adfNHEquNLyagJ1q8oLLbK9djgmL+57a2i92H2SrJviVgMmB9Jjq+0OIfEy542u3lHddcds7Kk3Dod0eJA9ct31R4lKXsnenNNkcHFfA9V8nIKX2HA12R6VgpljRQE3JjSaj3CAlM16Iix8cjbPqe1EvJswxf8Ta1bxDvDBpoDIpOwnuUL2VwBMKSfMeX7TT6cw7FSVz79MH9LZhtCmVbq8QlUZzt0ABF2Xc1Wl7iOxcO48EVFUNfvmOtEF6qvp8/h6HtM3ov2DfStGjP/DfAZItc3c4PvNOAAAAAElFTkSuQmCC"
+          />
+          <div className="nav-box">
+            <RouterIndex className="comp">
               <Menu></Menu>
             </RouterIndex>
-            </div>
           </div>
-        <AntdesignRouter/>
+        </div>
+        <AntdesignRouter />
 
-      <Footer></Footer>
+        <Footer></Footer>
       </div>
-        
-    )
+    );
   }
-
 }
 export default App;
 // {/* <div>
 // {/* <ul className='nav-box'> */} */}
-  // {
-    // this.state.list.map((item,index) => 
-    //     <li key={item.id} 
-    //       className={this.state.current===index?'active':''} 
-    //       onClick={() => this.handleClick(index)}
-    //     >
-    //       <a href={'/#/' + item.routeName}>{item.text}</a>
-    //       {/* {item.text} */}
-    //     </li>
-    // )
+// {
+// this.state.list.map((item,index) =>
+//     <li key={item.id}
+//       className={this.state.current===index?'active':''}
+//       onClick={() => this.handleClick(index)}
+//     >
+//       <a href={'/#/' + item.routeName}>{item.text}</a>
+//       {/* {item.text} */}
+//     </li>
+// )
 //   }
 // </ul>
-// </div>   
+// </div>
 
-  // state = {
-  //   current: 0,
-  //   list:[
-  //     {
-  //       id: 0,
-  //       text: '首页',
-  //       routeName: 'Home',
-  //     },
-  //     {
-  //       id: 1,
-  //       text:'产品介绍',
-  //       routeName: 'Product',
-  //     },
-  //     {
-  //       id: 2,
-  //       text: '关于我们',
-  //       routeName: 'About',
-  //     },
-  //     {
-  //       id: 3,
-  //       text: '新闻中心',
-  //       routeName: 'News',
-  //     },
-  //     {
-  //       id: 4,
-  //       text: '商户总览',
-  //       routeName: 'Merchant',
-  //     },
-  //     {
-  //       id: 5,
-  //       text: '帮助中心',
-  //       routeName: 'Help',
-  //     },
-  //   ]
-  // }
+// state = {
+//   current: 0,
+//   list:[
+//     {
+//       id: 0,
+//       text: '首页',
+//       routeName: 'Home',
+//     },
+//     {
+//       id: 1,
+//       text:'产品介绍',
+//       routeName: 'Product',
+//     },
+//     {
+//       id: 2,
+//       text: '关于我们',
+//       routeName: 'About',
+//     },
+//     {
+//       id: 3,
+//       text: '新闻中心',
+//       routeName: 'News',
+//     },
+//     {
+//       id: 4,
+//       text: '商户总览',
+//       routeName: 'Merchant',
+//     },
+//     {
+//       id: 5,
+//       text: '帮助中心',
+//       routeName: 'Help',
+//     },
+//   ]
+// }
 
-  // handleClick(index){
-  //   console.log(index)
-  //   this.setState({
-  //     current: index
-  //   })
-  // }
+// handleClick(index){
+//   console.log(index)
+//   this.setState({
+//     current: index
+//   })
+// }
 
-  // choosePage(){
-  //   switch(this.state.current){
-  //     case 0:
-  //       return<Home></Home>
-  //     case 1:
-  //       return<Product></Product>
-  //     case 2:
-  //       return<About></About>
-  //     case 3:
-  //       return<News></News>
-  //     case 4:
-  //       return<Merchant></Merchant>
-  //     case 5:
-  //       return<Help></Help>
-  //     default:
-  //       return null
-  //   }
-  // }
+// choosePage(){
+//   switch(this.state.current){
+//     case 0:
+//       return<Home></Home>
+//     case 1:
+//       return<Product></Product>
+//     case 2:
+//       return<About></About>
+//     case 3:
+//       return<News></News>
+//     case 4:
+//       return<Merchant></Merchant>
+//     case 5:
+//       return<Help></Help>
+//     default:
+//       return null
+//   }
+// }

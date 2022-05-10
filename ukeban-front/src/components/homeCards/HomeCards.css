@@ -1,0 +1,15 @@
+.ant-row {
+  width: 1226px;
+}
+.a-card{
+    display: inline-block;
+    margin: 0 6px 30px;
+}
+
+.home-cards {
+  background: white;
+  width: 1200px;
+  margin: 20px auto 20px;
+}
+
+

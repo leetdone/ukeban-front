@@ -1,0 +1,87 @@
+
+.col1 {
+  border-style: solid;
+  background-color: green;
+  width: 386px;
+}
+
+.cards {
+  border: 1px;
+  border-style: "solid";
+  height: 715px;
+  width: 386px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.card-title {
+  margin: 0 26px;
+}
+.card-title :first-child {
+  font-size: 16px;
+  font-weight: 500;
+  color: #b5b5b5;
+  line-height: 22px;
+  margin: 15px auto 8px;
+}
+
+.card-title :nth-child(2) {
+  font-size: 18px;
+  font-weight: 500;
+  color: #575757;
+  line-height: 25px;
+}
+
+.more {
+  height: 80px;
+  width: 340px;
+  margin: 21px 26px;
+  position: relative;
+}
+.more:hover {
+  cursor: pointer;
+}
+
+.more .more-title {
+  font-size: 17px;
+  font-weight: 400;
+  width: 260px;
+  height: 48px;
+  color: black;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.more .more-content {
+  font-size: 15px;
+  font-weight: 400;
+  width: 260px;
+  color: grey;
+  line-height: 21px;
+  margin-top: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.more img {
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+  height: 80px;
+}
+
+.see-more {
+  font-size: 20px;
+  font-weight: 400;
+  color: #b5b5b5;
+  line-height: 40px;
+  display: inline-block;
+  margin-left: 26px;
+}

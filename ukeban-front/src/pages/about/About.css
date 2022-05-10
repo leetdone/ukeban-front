@@ -1,0 +1,12 @@
+.about {
+  background-color: red;
+  background-image: url("../../assets/images/about_banner.png");
+}
+.about-main {
+  margin: 0 auto;
+  width: 1200px;
+}
+.about-images {
+  margin-top: 50px;
+  width: 1200px;
+}

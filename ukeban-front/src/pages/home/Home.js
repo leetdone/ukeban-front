@@ -1,8 +1,10 @@
 import React, { Component } from "react";
+import axios from "axios";
 import "./Home.css";
 import Carousel from "../../components/carousel/Carousel";
-import MCard from "../../components/homeCards/HomeCards";
+import HomeCards from "../../components/homeCards/HomeCards";
 export default class Home extends Component {
+
   render() {
     return (
       <div>
@@ -23,7 +25,7 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
-        <MCard />
+        <HomeCards />
       </div>
     );
   }

@@ -17,7 +17,7 @@ export default class HomeCard extends Component {
         cover={
           <img
             alt="example"
-            src="https://web.ukeban.com/static/qunzong.d8123169.png"
+            src={this.props.cover.card_img}
           />
         }
       >

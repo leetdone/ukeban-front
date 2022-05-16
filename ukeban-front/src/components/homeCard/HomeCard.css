@@ -5,6 +5,12 @@
   width: 386px;
 }
 
+
+.ant-card-cover img{
+  height: 243px;
+  width: 384px;
+}
+
 .cards {
   border: 1px;
   border-style: "solid";

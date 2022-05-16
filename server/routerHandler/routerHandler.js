@@ -5,11 +5,8 @@ exports.home = function (req, res) {
         const data = JSON.parse(dataStr);
         res.send(data.card_list)
         console.log(data.card_list)
-        
     })
     res.setHeader('Access-Control-Allow-Origin', '*')
-    
-    // next();router doesn't require next()
 }
 
 

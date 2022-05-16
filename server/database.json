@@ -64,7 +64,7 @@
           "card_title": "新闻中心",
           "card_subtitle": "当季福利",
           "card_over": {
-            "card_img": "http://127.0.0.1:3005/assets/images/xierongji",
+            "card_img": "http://127.0.0.1:3005/assets/images/xierongji.png",
             "card_url": "https://web.ukeban.com/#/activepage/dwyl",
             "picture_url": ""
           },
@@ -72,14 +72,14 @@
             {
               "card_theme": "4月出游不出油｜纪梵希控油散粉6折拿下",
               "card_subtheme": "做清爽出游人，拒绝成为出油人",
-              "card_img": "http://127.0.0.1:3005/assets/images/card_i17",
+              "card_img": "http://127.0.0.1:3005/assets/images/card_i17.png",
               "card_url": "https://mp.weixin.qq.com/s/XkgxUIPPzcPWCwjiOlV3hg",
               "picture_url": ""
             },
             {
               "card_theme": "蜜时4月特惠｜快看，蜜时的蛋糕会“说话”",
               "card_subtheme": "蜜时4月限时特惠，全新口味组合快来尝鲜！",
-              "card_img": "http://127.0.0.1:3005/assets/images/card_i3",
+              "card_img": "http://127.0.0.1:3005/assets/images/card_i3.png",
               "card_url": "https://mp.weixin.qq.com/s/q40IViDvYmgKfpyboRcj3A",
               "picture_url": ""
             },
@@ -87,7 +87,7 @@
               "card_theme":
                 "「新款」YSL气垫、黛珂紫苏水、兰蔻、美妆护肤国际大牌新上一波！",
               "card_subtheme": "【免税价·正品国际】职工自选，我的福利我做主",
-              "card_img": "http://127.0.0.1:3005/assets/images/card_i4",
+              "card_img": "http://127.0.0.1:3005/assets/images/card_i4.png",
               "card_url": "https://mp.weixin.qq.com/s/yqrNcviJwLodeN0v2Wekwg",
               "picture_url": ""
             }
@@ -98,7 +98,7 @@
           "card_title": "方案中心",
           "card_subtitle": "定制服务",
           "card_over": {
-            "card_img": "http://127.0.0.1:3005/assets/images/fanganzx",
+            "card_img": "http://127.0.0.1:3005/assets/images/fanganzx.png",
             "card_url": "https://mp.weixin.qq.com/s/0fSON70abm3ypQthizkSRA",
             "picture_url": ""
           },
@@ -106,14 +106,14 @@
             {
               "card_theme": "定制福利积分平台",
               "card_subtheme": "一对一定制化满足客户需求",
-              "card_img": "http://127.0.0.1:3005/assets/images/card_i6",
+              "card_img": "http://127.0.0.1:3005/assets/images/card_i6.png",
               "card_url": "",
               "picture_url": "platform"
             },
             {
               "card_theme": "来自某国企采购负责人的心声...",
               "card_subtheme": "挑福利，上可伴，企业福利采购不再是难题",
-              "card_img": "http://127.0.0.1:3005/assets/images/card_i15",
+              "card_img": "http://127.0.0.1:3005/assets/images/card_i15.png",
               "card_url": "https://mp.weixin.qq.com/s/OVPgLFO3Pth4dTszsgVo4g",
               "picture_url": ""
             },
@@ -122,7 +122,7 @@
                 "新春发福利，首选云福利！一张图带你看懂可伴数字工会福利产品和服务",
               "card_subtheme":
                 "五星服务，八大优势！附“福虎贺春”新春福利整体解决方案",
-              "card_img": "http://127.0.0.1:3005/assets/images/card_i5",
+              "card_img": "http://127.0.0.1:3005/assets/images/card_i5.png",
               "card_url": "https://mp.weixin.qq.com/s/R1taPiMjovZ9D2CmREXepw",
               "picture_url": ""
             }
@@ -132,7 +132,7 @@
           "card_title": "商户、商品、活动",
           "card_subtitle": "商户一览表",
           "card_over": {
-            "card_img": "http://127.0.0.1:3005/assets/images/wushang",
+            "card_img": "http://127.0.0.1:3005/assets/images/wushang.png",
             "card_url": "https://mp.weixin.qq.com/s/MjM2C9XM85DTDBsVhOjsxA",
             "picture_url": ""
           },
@@ -140,21 +140,21 @@
             {
               "card_theme": "可伴&花礼网｜打卡春日花束里的浪漫，上新立减30！",
               "card_subtheme": "一面鲜花，一面春光，收录这美好季节的所有浪漫",
-              "card_img": "http://127.0.0.1:3005/assets/images/card_i14",
+              "card_img": "http://127.0.0.1:3005/assets/images/card_i14.png",
               "card_url": "https://mp.weixin.qq.com/s/os92mCw5BTdRE1BFjfXueg",
               "picture_url": ""
             },
             {
               "card_theme": "【可伴生日会】一场超nice的生日会！",
               "card_subtheme": "做福利当然懂得发福利，爱员工，选可伴！",
-              "card_img": "http://127.0.0.1:3005/assets/images/card_i7",
+              "card_img": "http://127.0.0.1:3005/assets/images/card_i7.png",
               "card_url": "https://mp.weixin.qq.com/s/Pi2nyVOuLxNoLgK1ePVlZw",
               "picture_url": ""
             },
             {
               "card_theme": "可伴携手麦德龙徐东店给您发福利了！",
               "card_subtheme": "五一劳动节，劳动最光荣；荣光..",
-              "card_img": "http://127.0.0.1:3005/assets/images/card_i8",
+              "card_img": "http://127.0.0.1:3005/assets/images/card_i8.png",
               "card_url": "https://mp.weixin.qq.com/s/DoVEi5QnBspsZqi-aXRdUA",
               "picture_url": ""
             }
@@ -164,7 +164,7 @@
           "card_title": "大牌补贴",
           "card_subtitle": "码上有优惠",
           "card_over": {
-            "card_img": "http://127.0.0.1:3005/assets/images/youhui",
+            "card_img": "http://127.0.0.1:3005/assets/images/youhui.png",
             "card_url": "https://mp.weixin.qq.com/s/Lr4Kc7ako2ir3_XUMQIArg",
             "picture_url": ""
           },
@@ -173,7 +173,7 @@
               "card_theme":
                 "【码上优惠】每逢周五六日全省武商-8%，麦德龙-8%，中百-5%",
               "card_subtheme": "不限次数，不限金额，大家都在用",
-              "card_img": "http://127.0.0.1:3005/assets/images/card_i18",
+              "card_img": "http://127.0.0.1:3005/assets/images/card_i18.png",
               "card_url": "https://mp.weixin.qq.com/s/-L0axu_inm7egobkVVutRA",
               "picture_url": ""
             },
@@ -181,14 +181,14 @@
               "card_theme":
                 "【码上优惠】新增黄商、北山、富迪、寿康永乐等7个商超权益",
               "card_subtheme": "不限次数，不限金额，大家都在用",
-              "card_img": "http://127.0.0.1:3005/assets/images/card_i10",
+              "card_img": "http://127.0.0.1:3005/assets/images/card_i10.png",
               "card_url": "https://mp.weixin.qq.com/s/nSfd1Z1pZvBZTNQ3WsL9hg",
               "picture_url": ""
             },
             {
               "card_theme": "暖冬传喜讯, 码上有优惠正式入驻云闪付啦！",
               "card_subtheme": "如此优惠，惊喜连连，今天你用了“码”？",
-              "card_img": "http://127.0.0.1:3005/assets/images/card_i9",
+              "card_img": "http://127.0.0.1:3005/assets/images/card_i9.png",
               "card_url": "https://mp.weixin.qq.com/s/-nmJduaeEmeMqAPExVdN_Q",
               "picture_url": ""
             }
@@ -198,7 +198,7 @@
           "card_title": "企业集采",
           "card_subtitle": "礼品图册",
           "card_over": {
-            "card_img": "http://127.0.0.1:3005/assets/images/zhongqiu",
+            "card_img": "http://127.0.0.1:3005/assets/images/zhongqiu.png",
             "card_url": "https://web.ukeban.com/#/giftBook",
             "picture_url": ""
           },
@@ -206,14 +206,14 @@
             {
               "card_theme": "四季花开，季季好福利——新春礼品册",
               "card_subtheme": "物美价廉，欢迎选购",
-              "card_img": "http://127.0.0.1:3005/assets/images/card_i11",
+              "card_img": "http://127.0.0.1:3005/assets/images/card_i11.png",
               "card_url": "https://web.ukeban.com/#/giftBook",
               "picture_url": ""
             },
             {
               "card_theme": "福虎呈祥，可伴有礼，个性化定制企业春节福利",
               "card_subtheme": "工会主席、HR们请注意了，省心省钱省时的新春好礼",
-              "card_img": "http://127.0.0.1:3005/assets/images/card_i12",
+              "card_img": "http://127.0.0.1:3005/assets/images/card_i12.png",
               "card_url": "https://web.ukeban.com/#/activepage",
               "picture_url": ""
             },
@@ -221,7 +221,7 @@
               "card_theme":
                 "你真的会用单位发的福利吗？发福利还可以薅羊毛！新年开启数字福利生活，礼到福到！",
               "card_subtheme": "——新年开启数字福利生活，礼到福到！",
-              "card_img": "http://127.0.0.1:3005/assets/images/card_i13",
+              "card_img": "http://127.0.0.1:3005/assets/images/card_i13.png",
               "card_url": "https://mp.weixin.qq.com/s/A3oqRkxA9iW5HtHkYXe7lA",
               "picture_url": ""
             }

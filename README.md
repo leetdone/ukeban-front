@@ -19,7 +19,7 @@
 将所有格式变成默认格式
 
 ## views文件夹
-包含标签栏导航到的各个页面，对应关系为Home.js(首页), Product.js(产品介绍)， About.js(关于我们)， News.js(新闻中心)， Merchant.js(商户总览)， Help.js（帮助中心）， Footer.js(页脚）  
+包含标签栏导航到的各个页面，对应关系为Home.js(首页), Product.js(产品介绍)， About.js(关于我们)， News.js(新闻中心，发送ajax请求并接收服务器数据，显示在单个list中 )， Merchant.js(商户总览)， Help.js（帮助中心）， Footer.js(页脚）  
 
 viewCSS包含js文件对应的css文件
 
@@ -28,8 +28,8 @@ viewCSS包含js文件对应的css文件
 ### 首页
 Menu.js 菜单栏组件  
 Carousel.js 轮播组件  
-MCard.js 包含首页中所有卡片  
-HomeSingleCard.js 首页中单个卡片  
+homeCards.js 包含首页中所有卡片, 发送ajax请求并接收服务器数据，显示在单个卡片中
+HomeCard.js 首页中单个卡片  
 
 ### 新闻中心
 NewsCard展示每个新闻的组件  

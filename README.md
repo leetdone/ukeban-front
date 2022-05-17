@@ -1,5 +1,11 @@
 # server
+## routes/router.js
 
+接收'/home'和'/news'的请求
+
+## routerHandler/routerHandler.js
+
+读取database.json文件中的数据，当接收到请求时发送数据
 
 # ukeban-front
 

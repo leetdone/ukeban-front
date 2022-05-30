@@ -1,10 +1,13 @@
 const fs = require('fs')
 
+
 exports.home = function (req, res) {
+
+
+
     fs.readFile('./database.json', 'utf8', function(err, dataStr){
         const data = JSON.parse(dataStr);
         res.send(data.card_list)
-        console.log(data.card_list)
     })
     res.setHeader('Access-Control-Allow-Origin', '*')
 }

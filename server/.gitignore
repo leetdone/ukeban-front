@@ -16,3 +16,6 @@ Thumbs.db
 # ignore .lock
 yarn.lock
 package-lock.json
+
+#ignore keys
+./writeDatabase/writeNews.js

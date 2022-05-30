@@ -18,4 +18,4 @@ yarn.lock
 package-lock.json
 
 #ignore keys
-/writeDatabase/writeNews.js
+writeNews.js

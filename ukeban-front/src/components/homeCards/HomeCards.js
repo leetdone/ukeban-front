@@ -33,7 +33,7 @@ export default class HomeCards extends Component {
         {this.state.card_list.map((item, index) => (
              <div className="a-card">
                 <HomeCard
-                    cover={this.state.card_list[index].card_over}
+                    cover={this.state.card_list[index]}
                     title={this.state.card_list[index].card_title}
                     subtitle={this.state.card_list[index].card_subtitle}
                     cardItem={this.state.card_list[index].card_item}

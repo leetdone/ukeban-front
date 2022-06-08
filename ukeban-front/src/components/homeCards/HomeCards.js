@@ -17,6 +17,16 @@ export default class HomeCards extends Component {
   }
 
   componentDidMount(){
+
+    // switch(process.env.mode){
+    //   case 'development':
+    //     axios.defaults.baseURL = 'http://127.0.0.1:3005'
+    //   case 'test':
+    //     axios.defaults.baseURL = 'http://127.0.0.1:3006'
+    //   case 'production':
+    //     axios.defaults.baseURL = 'http://127.0.0.1:3007'
+    // }
+
     axios({
       method: 'GET',
       url: "http://127.0.0.1:3005/home"

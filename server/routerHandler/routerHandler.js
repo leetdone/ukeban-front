@@ -5,7 +5,7 @@ const db = require('../writeDatabase/connectDB')
 
 exports.home = function (req, res) {
     
-    async function createJSON() {
+    async function sendJSON() {
         const sqlStr = 'select * from home'
         let requestCards = await db.query(sqlStr)
         let cards = requestCards[0]
@@ -16,7 +16,7 @@ exports.home = function (req, res) {
         }
         await res.send(cards);
     }
-    createJSON()
+    sendJSON()
     
     // fs.readFile('./database.json', 'utf8', function(err, dataStr){
     //     const data = JSON.parse(dataStr);
@@ -28,14 +28,16 @@ exports.home = function (req, res) {
 
 exports.news = function (req, res) {
 
-    const sqlStr = 'select * from news'
+    
+    async function sendJSON(){
+        const sqlStr = 'select * from news'
+        let results = await db.query(sqlStr);
+        await res.send(results[0]);
+    }
+    
+    sendJSON();
 
-    db.query(sqlStr, (err, results) => {
-        if(err) return console.log(err.message)
-        res.send(results);
-    })
-
-    res.setHeader('Access-Control-Allow-Origin', '*')
+    res.setHeader('Access-Control-Allow-Origin', '*');
 }
 
 

@@ -32,12 +32,14 @@ exports.news = function (req, res) {
     async function sendJSON(){
         const sqlStr = 'select * from news'
         let results = await db.query(sqlStr);
+        
         await res.send(results[0]);
     }
     
-    sendJSON();
-
+    
     res.setHeader('Access-Control-Allow-Origin', '*');
+    
+    setTimeout(()=>{sendJSON()},2000)
 }
 
 

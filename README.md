@@ -10,7 +10,7 @@
 #### writeNew.js
 读取database.json里的信息，将News的每一列的信息写入数据库
 
-routerHanlder.js
+#### routerHanlder.js
 读取首页卡片的标题列的信息，对前端发送json信息
 
 # ukeban-front/src
@@ -21,8 +21,8 @@ routerHanlder.js
 发送页数query
 #### news/New.js
 加入无限滚动后换页
-
-# server
+# end
+## server
 ## routes/router.js
 
 接收'/home'和'/news'的请求

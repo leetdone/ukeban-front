@@ -1,3 +1,20 @@
+# 本次完成的部分 6/12
+server 文件夹
+writeDatabase
+connectDB
+连接到数据库，并用dotenv隐藏敏感信息，如密码
+writeHomeCards.js
+读取database.json里的信息，将首页卡片的标题列的信息写入数据库
+insertRowsInHomeCard.js
+读取database.json里的信息，将首页卡片的每一列的信息写入数据库
+writeNew.js
+读取database.json里的信息，将News的每一列的信息写入数据库
+
+routerHanlder.js
+读取首页卡片的标题列的信息，对前端发送json信息
+
+
+
 # server
 ## routes/router.js
 

@@ -4,7 +4,7 @@ const util = require('util');
 const db = require('../writeDatabase/connectDB')
 
 exports.home = function (req, res) {
-    
+    //发送json信息
     async function sendJSON() {
         const sqlStr = 'select * from home'
         let requestCards = await db.query(sqlStr)
@@ -17,39 +17,25 @@ exports.home = function (req, res) {
         await res.send(cards);
     }
     sendJSON()
-    
-    // fs.readFile('./database.json', 'utf8', function(err, dataStr){
-    //     const data = JSON.parse(dataStr);
-    //     res.send(data.card_list)
-    // })
     res.setHeader('Access-Control-Allow-Origin', '*')
 }
 
 
 exports.news = function (req, res) {
 
-    
+    console.log(req.query)
     async function sendJSON(){
-        const sqlStr = 'select * from news'
+        //支持无限滚动之后的换页，每页20条news
+        const sqlStr = `select * from news where id > ${parseInt(req.query.page) * 20} and id < ${(parseInt(req.query.page)+1 )* 20}`
         let results = await db.query(sqlStr);
         
         await res.send(results[0]);
     }
     
-    
     res.setHeader('Access-Control-Allow-Origin', '*');
     
-    setTimeout(()=>{sendJSON()},2000)
+    // setTimeout(()=>{sendJSON()},2000)
+    sendJSON()
 }
 
 
-
-    // fs.readFile('./database.json', 'utf8', function(err, dataStr){
-    //     if(err){
-    //         console.log('error in reading files')
-    //     }
-    //     const data = JSON.parse(dataStr);
-        
-    //     res.send(data.newsNum);
-
-    // })

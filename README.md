@@ -1,5 +1,5 @@
 # 本次完成的部分 6/12
-## server
+## server https://github.com/leetdone/ukeban-front/tree/main/server
 ### writeDatabase
 #### connectDB
 连接到数据库，并用dotenv隐藏敏感信息，如密码
@@ -13,7 +13,7 @@
 #### routerHanlder.js
 读取首页卡片的标题列的信息，对前端发送json信息
 
-# ukeban-front/src
+# ukeban-front/src https://github.com/leetdone/ukeban-front/tree/main/ukeban-front/src
 
 #### utils/request.js
 封装axios请求

@@ -1,19 +1,26 @@
 # 本次完成的部分 6/12
-server 文件夹
-writeDatabase
-connectDB
+## server
+### writeDatabase
+#### connectDB
 连接到数据库，并用dotenv隐藏敏感信息，如密码
-writeHomeCards.js
+#### writeHomeCards.js
 读取database.json里的信息，将首页卡片的标题列的信息写入数据库
-insertRowsInHomeCard.js
+#### insertRowsInHomeCard.js
 读取database.json里的信息，将首页卡片的每一列的信息写入数据库
-writeNew.js
+#### writeNew.js
 读取database.json里的信息，将News的每一列的信息写入数据库
 
 routerHanlder.js
 读取首页卡片的标题列的信息，对前端发送json信息
 
+# ukeban-front/src
 
+#### utils/request.js
+封装axios请求
+#### service/requestNews.js
+发送页数query
+#### news/New.js
+加入无限滚动后换页
 
 # server
 ## routes/router.js
@@ -24,14 +31,7 @@ routerHanlder.js
 
 读取database.json文件中的数据，当接收到请求时发送数据
 
-# ukeban-front/src
 
-utils/request.js
-封装axios请求
-service/requestNews.js
-发送页数query
-news/New.js
-加入无限滚动后换页
 
 
 ## src 中的源代码

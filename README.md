@@ -24,7 +24,15 @@ routerHanlder.js
 
 读取database.json文件中的数据，当接收到请求时发送数据
 
-# ukeban-front
+# ukeban-front/src
+
+utils/request.js
+封装axios请求
+service/requestNews.js
+发送页数query
+news/New.js
+加入无限滚动后换页
+
 
 ## src 中的源代码
 ### App.js
